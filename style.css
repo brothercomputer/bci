@@ -1,0 +1,108 @@
+<style type="text/css">
+	
+h1,h2{
+  font-family: 'Pacifico', cursive;
+
+font-size: 2em;
+color: black;
+
+}
+.navbar {
+  overflow: hidden;
+ 
+      
+   
+  
+}
+
+.navbar a {
+  float: left;
+  font-size: 1.25em;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+  font-family: lobster;
+}
+.navbar a:hover,.dropdown:hover .dropbtn {
+ 
+  border-bottom: 3px solid black;
+}
+.navbar a.active {
+  border-bottom: 3px solid black;
+}
+.navibarbar a:hover, .dropdown:hover .dropbtn {
+  display: block;
+  background-color: 
+
+}
+
+
+.container-fluid{
+  background-color: blue;
+}
+
+
+.header h1 {
+
+  font-family:Comic Sans MS, cursive, sans-serif;
+}
+.header {
+  width:100%;
+  height: 80px;
+  
+  background-repeat: no-repeat;
+  float: left;
+}
+
+img{
+  float: right;
+}
+.image{
+  background-image: url(126.jpg);
+}
+
+    html,body{
+      height: 100%;
+
+    }
+    body{
+      background-image: url(2.jpg);
+      background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+overflow: hidden;
+    }
+    @media only screen and (max-width: 400px) {
+  
+    /* styles for narrow screens */
+    body{
+      background-image: url("12.jpg");
+      background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+overflow: hidden;
+    
+    }
+}
+    .bg1{
+  background-color: rgba(255,255,255,0.8);
+  position: absolute;
+  bottom: 3%;
+}
+footer{
+  position: fixed;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 15px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: purple;
+}
+.footer p{
+  text-align: center;
+  }
